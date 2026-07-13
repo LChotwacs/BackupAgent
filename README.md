@@ -1,6 +1,6 @@
-# ILCBackup
+# BackupAgent
 
-ILCBackup is a cross-platform backup automation tool written in C# and .NET.
+BackupAgent is a cross-platform backup automation tool written in C# and .NET.
 
 The project provides an automated backup agent with a separated core architecture and a future cross-platform user interface.
 
@@ -8,7 +8,7 @@ The project provides an automated backup agent with a separated core architectur
 
 The solution is separated into three main components:
 
-### ILCBackup.Core
+### BackupAgent.Core
 Contains the core functionality and business logic:
 
 - Backup handling
@@ -17,7 +17,7 @@ Contains the core functionality and business logic:
 - Command processing
 - Logging
 
-### ILCBackup.Agent
+### BackupAgent.Agent
 Background process responsible for:
 
 - Running the backup workflow
@@ -25,7 +25,7 @@ Background process responsible for:
 - Scheduling tasks
 - Managing the application lifecycle
 
-### ILCBackup.GUI
+### BackupAgent.GUI
 Cross-platform user interface based on Avalonia UI.
 
 ## Technologies

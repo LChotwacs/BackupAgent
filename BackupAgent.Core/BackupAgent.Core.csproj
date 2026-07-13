@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>BackupAgent.Core</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Communication\" />
+      <Folder Include="Configuration\" />
+      <Folder Include="Logging\" />
+      <Folder Include="Models\" />
+    </ItemGroup>
+
+</Project>
