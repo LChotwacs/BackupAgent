@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILCBackup.GUI", "ILCBackup.GUI\ILCBackup.GUI.csproj", "{D6CE8B68-C7E1-4248-9562-2753F78B5111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILCBackup.Core", "ILCBackup.Core\ILCBackup.Core.csproj", "{99A5ADC1-5400-4BE1-8C07-23AAE288AAD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILCBackup.Agent", "ILCBackup.Agent\ILCBackup.Agent.csproj", "{5875717C-ADEB-413F-95BF-48F66A9643DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6CE8B68-C7E1-4248-9562-2753F78B5111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6CE8B68-C7E1-4248-9562-2753F78B5111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6CE8B68-C7E1-4248-9562-2753F78B5111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6CE8B68-C7E1-4248-9562-2753F78B5111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A5ADC1-5400-4BE1-8C07-23AAE288AAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A5ADC1-5400-4BE1-8C07-23AAE288AAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A5ADC1-5400-4BE1-8C07-23AAE288AAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A5ADC1-5400-4BE1-8C07-23AAE288AAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5875717C-ADEB-413F-95BF-48F66A9643DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5875717C-ADEB-413F-95BF-48F66A9643DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5875717C-ADEB-413F-95BF-48F66A9643DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5875717C-ADEB-413F-95BF-48F66A9643DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
