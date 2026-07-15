@@ -19,11 +19,13 @@ namespace BackupAgent.Core.Logging
         {
             try
             {
-                if (string.IsNullOrEmpty(_logFilePath))
-                    return;
-
                 string logLine =
                     $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}";
+                
+                Console.WriteLine(logLine);
+                
+                if (string.IsNullOrEmpty(_logFilePath))
+                    return;
 
                 File.AppendAllText(
                     _logFilePath,

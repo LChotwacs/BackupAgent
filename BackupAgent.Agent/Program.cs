@@ -1,7 +1,14 @@
-﻿using BackupAgent.Core.Services;
+﻿using BackupAgent.Agent.Services;
 
-var configManager = new ConfigManager();
+namespace BackupAgent.Agent
+{
+    internal static class Program
+    {
+        static void Main(string[] args)
+        {
+            AgentHost agent = new AgentHost();
 
-Console.WriteLine("BackupAgent Agent gestartet");
-
-Console.ReadLine();
+            agent.Run();
+        }
+    }
+}
